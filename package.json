@@ -1,0 +1,17 @@
+{
+  "name": "dailypaper",
+  "version": "1.0.0",
+  "description": "nuaa s3lab daily paper",
+  "main": "index.js",
+  "repository": "https://github.com/nuaa-s3lab/dailyPaper",
+  "author": "nuaa s3lab",
+  "license": "MIT",
+  "devDependencies": {
+    "@maginapp/vuepress-plugin-katex": "^1.0.7",
+    "vuepress": "^1.7.1"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
