@@ -5,6 +5,10 @@ module.exports = {
     themeConfig: {
         nav: [
             {
+                text: 'About',
+                link: '/about/'
+            },
+            {
                 text: 'Year',
                 ariaLabel: 'Year',
                 items: [
@@ -13,6 +17,12 @@ module.exports = {
                         link: '/2020/'
                     }
                 ]
+            },
+            {
+                text: 'GitHub',
+                link: 'https://github.com/nuaa-s3lab',
+                target:'_self',
+                rel:''
             }
         ],
         sidebar: {
