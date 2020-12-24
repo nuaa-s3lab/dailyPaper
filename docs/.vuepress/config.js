@@ -54,6 +54,9 @@ module.exports = {
             {
                 delimiters: 'dollars'
             }
+        ],
+        [
+            '@vuepress/medium-zoom'
         ]
     ],
     markdown: {
