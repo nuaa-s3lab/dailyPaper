@@ -5,10 +5,9 @@
 1. `git clone https://github.com/nuaa-s3lab/dailyPaper.git`
 2. 将文章放入 `docs/<year>/<date>.md` 下，命名格式为 `<date>.md`
 3. 将引用的图片放入 `docs/<year>/img/` 目录下，命名格式为 `<date>-<i>.png/jpg/...`
-4. 将论文原文的 PDF 格式放入 `papers/<year>-<month>-<day>/` 目录下。命名格式为 `<publish-year>-<conference-name>-<first name>.pdf`
-5. 在 `docs/<year>/README.md` 下补充论文
-6. 在 `docs/.vuepress/config.js` 中 `sidebar` 下补充你的日期。
-7. `git push origin master`
+4. 在 `docs/<year>/README.md` 下补充论文
+5. 在 `docs/.vuepress/config.js` 中 `sidebar` 下补充你的日期。
+6. `git push origin master`
 
 ## 更新项目
 
