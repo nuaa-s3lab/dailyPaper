@@ -35,10 +35,10 @@ yarn config set proxy http://<ip>:<port>
 
 接下来执行
 
-$$
+```bash
 yarn
 yarn docs:dev
-$$
+```
 
 即可在 <http://localhost:8080/> 预览本项目。
 
