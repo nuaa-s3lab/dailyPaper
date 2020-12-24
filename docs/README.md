@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /hero.png
-heroText: NUAA Daily Paper
+heroText: NUAA S3lab Daily Paper
 tagline: 千里之行，始于足下
 subSidebar: false
 

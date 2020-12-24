@@ -1,6 +1,6 @@
 module.exports = {
     base: "/dailyPaper/",
-    title: 'NUAA S3lab Paper Daily',
+    title: 'NUAA S3lab Daily Paper',
     description: 'NUAA S3lab Paper Daily',
     theme: 'reco',
     head: [
