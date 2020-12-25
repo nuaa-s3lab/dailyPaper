@@ -62,6 +62,12 @@ module.exports = {
         ],
         [
             '@vuepress/medium-zoom'
+        ],
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'UA-131763109-3' // UA-00000000-0
+            }
         ]
     ],
     markdown: {
