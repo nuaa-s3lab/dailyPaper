@@ -11,7 +11,10 @@ module.exports = {
         blogConfig: {
             tag: {
                 text: 'Tag'
-            }
+            },
+            category: {
+                text: 'Category' // 默认文案 “分类”
+            },
         },
         nav: [
             {
