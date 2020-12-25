@@ -7,6 +7,7 @@ module.exports = {
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
     ],
     themeConfig: {
+        lastUpdated: 'Last Updated', // string | boolean
         blogConfig: {
             tag: {
                 text: 'Tag'
