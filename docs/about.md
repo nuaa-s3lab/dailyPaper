@@ -1,13 +1,47 @@
-# 关于
+---
+title: 关于
+---
 
 ## 如何新增一篇文章？
 
 1. `git clone https://github.com/nuaa-s3lab/dailyPaper.git`
+
+::: tip
+这一步将在当前页面创建一个 `dailyPaper` 文件夹，其目录结构如下：
+
+```
+./
+├── README.md
+├── docs
+│   ├── 2020
+│   ├── README.md
+│   ├── about.md
+│   └── template.md
+└── newpaper.py
+```
+
+其中 `docs` 目录是文档及图片存放的目录。
+:::
+
 2. 将文章放入 `docs/<year>/<date>.md` 下，命名格式为 `<date>.md`
 3. 将引用的图片放入 `docs/<year>/img/` 目录下，命名格式为 `<date>-<i>.png/jpg/...`
+
+::: tip
+论文推荐模板请参考[这里](./template.md)
+:::
+
 4. 在 `docs/<year>/README.md` 下补充论文
 5. 在 `docs/.vuepress/config.js` 中 `sidebar` 下补充你的日期。
+
+::: tip
+4 和 5 的目的是将你的论文在网页上显示。其中，4 的目的是将你的论文添加到 `https://nuaa-s3lab.github.io/dailyPaper/<year>/` 中，5 的目的是让你的论文在侧边栏显示。
+:::
+
 6. `git push origin master`
+
+::: tip
+最后一步，将你的论文 push 到 GitHub 上。之后就会调用 GitHub Actions 自动构建论文。你可以在 <https://github.com/nuaa-s3lab/dailyPaper/actions> 上查看构建情况，如果出现了问题，请及时修改或联系其他同学。
+:::
 
 ## 更新项目
 
@@ -39,7 +73,7 @@ yarn
 yarn docs:dev
 ```
 
-即可在 <http://localhost:8080/> 预览本项目。
+即可在 <http://localhost:8080/dailyPaper/> 预览本项目。
 
 ## 常见问题
 
