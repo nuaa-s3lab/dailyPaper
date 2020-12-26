@@ -1,7 +1,7 @@
 module.exports = {
     base: "/dailyPaper/",
     title: 'NUAA S3lab Daily Paper',
-    description: 'NUAA S3lab Paper Daily',
+    description: 'NUAA S3lab 每日论文推荐',
     theme: 'reco',
     head: [
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
