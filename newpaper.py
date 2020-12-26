@@ -83,12 +83,11 @@ def copy_paper_dir(dir):
 def Parsing_MD_files(path):
      with open('{}'.format(path),'r+') as file:
         itemList =  file.readlines()
+        imglist = []
         for imgformat in images_in_mdFile:
-            
+            ##识别文件中的图片路径并更新然后将图片放入img中
 
 
-
-    
 
 if __name__=="__main__":
     today = TodayDate()
