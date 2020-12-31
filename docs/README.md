@@ -10,6 +10,7 @@ footer: MIT Licensed | Copyright © 2020-present nuaa-s3lab
 
 ::: tip 论文推荐
 
+- [2021 年推荐论文](./2021/README.md)
 - [2020 年推荐论文](./2020/README.md)
 
 :::
