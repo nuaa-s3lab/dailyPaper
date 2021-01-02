@@ -26,6 +26,10 @@ module.exports = {
                 ariaLabel: 'Year',
                 items: [
                     {
+                        text: '2021',
+                        link: '/2021/'
+                    },
+                    {
                         text: '2020',
                         link: '/2020/'
                     }
