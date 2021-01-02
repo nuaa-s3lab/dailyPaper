@@ -38,7 +38,8 @@ module.exports = {
                         text: '2020',
                         link: '/2020/'
                     }
-                ]
+                ],
+                icon: 'reco-date'
             },
             {
                 text: 'GitHub',
