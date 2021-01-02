@@ -18,6 +18,11 @@ module.exports = {
         },
         nav: [
             {
+                text: 'Subscribe',
+                link: 'https://nuaa-s3lab.github.io/dailyPaper/rss.xml',
+                icon: 'reco-rss'
+            },
+            {
                 text: 'About',
                 link: '/about/'
             },
@@ -26,10 +31,15 @@ module.exports = {
                 ariaLabel: 'Year',
                 items: [
                     {
+                        text: '2021',
+                        link: '/2021/'
+                    },
+                    {
                         text: '2020',
                         link: '/2020/'
                     }
-                ]
+                ],
+                icon: 'reco-date'
             },
             {
                 text: 'GitHub',
@@ -42,6 +52,7 @@ module.exports = {
         sidebar: {
             '/2021/': [
                 '',
+                '0102',
                 '0101',
             ],
             '/2020/': [
@@ -78,6 +89,12 @@ module.exports = {
             '@vuepress/google-analytics',
             {
                 'ga': 'UA-131763109-3' // UA-00000000-0
+            }
+        ],
+        [
+            '@vuepress-reco/vuepress-plugin-rss',
+            {
+                'site_url': 'https://nuaa-s3lab.github.io/dailyPaper'
             }
         ]
     ],
