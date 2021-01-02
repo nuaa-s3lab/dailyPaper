@@ -18,6 +18,11 @@ module.exports = {
         },
         nav: [
             {
+                text: 'Subscribe',
+                link: 'https://nuaa-s3lab.github.io/dailyPaper/rss.xml',
+                icon: 'reco-rss'
+            },
+            {
                 text: 'About',
                 link: '/about/'
             },
@@ -83,6 +88,12 @@ module.exports = {
             '@vuepress/google-analytics',
             {
                 'ga': 'UA-131763109-3' // UA-00000000-0
+            }
+        ],
+        [
+            '@vuepress-reco/vuepress-plugin-rss',
+            {
+                'site_url': 'https://nuaa-s3lab.github.io/dailyPaper'
             }
         ]
     ],
