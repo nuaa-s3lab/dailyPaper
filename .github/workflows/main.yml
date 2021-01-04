@@ -21,7 +21,9 @@ jobs:
         uses: actions/checkout@v2
         with:
           persist-credentials: false
-          fetch-depth: 0 # default 1 will cause last updated false. https://ty-peng.gitee.io/views/note/ops/202004141352-vuepress-last-updated.html
+          fetch-depth: 0 
+          # default 1 will cause last updated false.
+          # https://ty-peng.gitee.io/views/note/ops/202004141352-vuepress-last-updated.html
 
       # 生成静态文件
       - name: Build
