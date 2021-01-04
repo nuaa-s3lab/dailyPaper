@@ -87,7 +87,13 @@ module.exports = {
             }
         ],
         [
-            '@vuepress/medium-zoom'
+            '@vuepress/medium-zoom',
+            // {
+            //     selector: 'img',
+            //     options: {
+            //         margin: 16
+            //     }
+            // },
         ],
         [
             '@vuepress/google-analytics',
