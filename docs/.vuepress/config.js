@@ -18,13 +18,21 @@ module.exports = {
         },
         nav: [
             {
-                text: 'Subscribe',
-                link: 'https://nuaa-s3lab.github.io/dailyPaper/rss.xml',
-                icon: 'reco-rss'
-            },
-            {
                 text: 'About',
-                link: '/about/'
+                ariaLabel: 'Year',
+                items: [
+                    {
+                        text: '关于本项目',
+                        link: '/about/',
+                        icon: 'reco-blog'
+                    },
+                    {
+                        text: 'RSS 订阅',
+                        link: 'https://nuaa-s3lab.github.io/dailyPaper/rss.xml',
+                        icon: 'reco-rss'
+                    },
+                ],
+                icon: 'reco-message'
             },
             {
                 text: 'Year',
