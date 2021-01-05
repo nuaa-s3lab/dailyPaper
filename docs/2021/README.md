@@ -1,7 +1,7 @@
 ---
 title: 2021 年推荐论文
 ---
-
+- 2021-01-05: [CRYPTFLOW : Secure TensorFlow Inference](./0105.md) @ S&P 2020
 - 2021-01-04: [Binary Rewriting without Control Flow Recovery](./0104.md) @ PLDI 2020
 - 2021-01-03: [CloudLeak: Large-Scale Deep Learning Models Stealing Through Adversarial Examples](./0103.md) @ NDSS 2020
 - 2021-01-02: [RAZOR: A Framework for Post-deployment Software Debloating](./0102.md) @ USENIX Security 2019
