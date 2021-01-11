@@ -101,12 +101,12 @@ module.exports = {
         ],
         [
             '@vuepress/medium-zoom',
-            {
-                selector: 'img',
-                options: {
-                    margin: 16
-                }
-            },
+            // {
+            //     selector: 'img',
+            //     options: {
+            //         margin: 16
+            //     }
+            // },
         ],
         [
             '@vuepress/google-analytics',
