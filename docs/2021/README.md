@@ -2,6 +2,7 @@
 title: 2021 年推荐论文
 ---
 
+- 2021-01-13: [CrossTalk: Speculative Data Leaks across Cores Are Real](./0113.md) @ S&P 2021
 - 2021-01-12: [OBFUSCURO: A Commodity Obfuscation Engine on Intel SGX](./0112.md) @ NDSS 2019
 - 2021-01-11: [Hermes Attack: Steal DNN Models with Lossless Inference Accuracy](./0111.md) @ USENIX 2020
 - 2021-01-08: [VPS: Excavating High-Level C++ Constructs from Low-Level Binaries to Protect Dynamic Dispatching](./0108.md) @ ACSAC 2019
