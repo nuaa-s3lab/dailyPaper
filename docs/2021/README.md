@@ -1,7 +1,9 @@
 ---
 title: 2021 年推荐论文
 ---
-- 2021-01-15: [Co-Inflow: Coarse-grained Information Flow Control for Java-like Languages](./0118.md) @ S&P 2021
+
+- 2021-01-19: [SGX-Shield: Enabling Address Space Layout Randomization for SGX Programs](./0119.md) @ NDSS 2017
+- 2021-01-18: [Co-Inflow: Coarse-grained Information Flow Control for Java-like Languages](./0118.md) @ S&P 2021
 - 2021-01-15: [DR.SGX: Automated and Adjustable Side-Channel Protection for SGX using Data Location Randomization](./0115.md) @ ACSAC 2019
 - 2021-01-14: [XONN : XNOR-based Oblivious Deep Neural Network Inference](./0114.md) @ USENIX 2019
 - 2021-01-13: [CrossTalk: Speculative Data Leaks across Cores Are Real](./0113.md) @ S&P 2021
