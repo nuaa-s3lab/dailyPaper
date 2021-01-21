@@ -1,7 +1,7 @@
 ---
 title: 2021 年推荐论文
 ---
-- 2021-01-20: [Acclaim: Adaptive Memory Reclaim to Improve User Experience in Android Systems](./0120.md) @ USENIX 2020
+- 2021-01-20: [Acclaim: Adaptive Memory Reclaim to Improve User Experience in Android Systems](./0120.md) @ USENIX ATC 2020
 - 2021-01-19: [SGX-Shield: Enabling Address Space Layout Randomization for SGX Programs](./0119.md) @ NDSS 2017
 - 2021-01-18: [Co-Inflow: Coarse-grained Information Flow Control for Java-like Languages](./0118.md) @ S&P 2021
 - 2021-01-15: [DR.SGX: Automated and Adjustable Side-Channel Protection for SGX using Data Location Randomization](./0115.md) @ ACSAC 2019
