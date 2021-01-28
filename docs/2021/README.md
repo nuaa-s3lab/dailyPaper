@@ -1,6 +1,8 @@
 ---
 title: 2021 年推荐论文
 ---
+
+- 2021-01-28: [Fuzzification: Anti-Fuzzing Techniques](./0128.md) @ USENIX Security 2019
 - 2021-01-27: [Mind Your Weight(s): A Large-scale Study on Insufficient Machine Learning Model Protection in Mobile Apps](./0127.md) @ arXiv:2002.07687 2020
 - 2021-01-26: [PANOPLY: Low-TCB Linux Applications with SGX Enclaves](./0126.md) @ SENIX ATC 2017
 - 2021-01-25: [Ramblr: Making Reassembly Great Again](./0125.md) @ NDSS 2017
